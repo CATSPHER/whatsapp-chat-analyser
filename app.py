@@ -15,7 +15,7 @@ if uploaded_file is not None:
 
     #fetch unique users
     user_list=df['user'].unique().tolist()
-    user_list.remove('EE hostellers')
+    #user_list.remove('EE hostellers')
     user_list.sort()
     user_list.insert(0,"Overall")
 
